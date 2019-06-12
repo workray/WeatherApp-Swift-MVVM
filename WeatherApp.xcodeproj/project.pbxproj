@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,13 @@
 		1E2CC0AB22B198B00053B6C6 /* DomainPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E2CC0A922B198B00053B6C6 /* DomainPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E2CC0AE22B198B00053B6C6 /* DomainPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2CC0A722B198B00053B6C6 /* DomainPlatform.framework */; };
 		1E2CC0AF22B198B00053B6C6 /* DomainPlatform.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2CC0A722B198B00053B6C6 /* DomainPlatform.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1E2CC0B622B19CB30053B6C6 /* Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2CC0B522B19CB30053B6C6 /* Encodable.swift */; };
+		1E2CC0B922B19CDE0053B6C6 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2CC0B822B19CDE0053B6C6 /* Weather.swift */; };
+		1E2CC0BB22B19D2B0053B6C6 /* WCoord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2CC0BA22B19D2B0053B6C6 /* WCoord.swift */; };
+		1E2CC0BD22B19E830053B6C6 /* WSys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2CC0BC22B19E830053B6C6 /* WSys.swift */; };
+		1E2CC0BF22B19FCB0053B6C6 /* WMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2CC0BE22B19FCB0053B6C6 /* WMain.swift */; };
+		1E2CC0C122B1A1180053B6C6 /* WWind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2CC0C022B1A1180053B6C6 /* WWind.swift */; };
+		1E2CC0C522B1A5FC0053B6C6 /* WWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2CC0C422B1A5FC0053B6C6 /* WWeather.swift */; };
 		2856426AC65B3B6CAA73787E /* Pods_NetworkPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597CF60B73DFE2E749722AF0 /* Pods_NetworkPlatform.framework */; };
 		B23E611C9502A52995FDDC56 /* Pods_WeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D241D9E2B0205C16D0D11D7D /* Pods_WeatherApp.framework */; };
 		D60CA8E9B6E3972064EE74CF /* Pods_DomainPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374D72811783F77146E4975E /* Pods_DomainPlatform.framework */; };
@@ -71,6 +78,13 @@
 		1E2CC0A722B198B00053B6C6 /* DomainPlatform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DomainPlatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E2CC0A922B198B00053B6C6 /* DomainPlatform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DomainPlatform.h; sourceTree = "<group>"; };
 		1E2CC0AA22B198B00053B6C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E2CC0B522B19CB30053B6C6 /* Encodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encodable.swift; sourceTree = "<group>"; };
+		1E2CC0B822B19CDE0053B6C6 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		1E2CC0BA22B19D2B0053B6C6 /* WCoord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCoord.swift; sourceTree = "<group>"; };
+		1E2CC0BC22B19E830053B6C6 /* WSys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSys.swift; sourceTree = "<group>"; };
+		1E2CC0BE22B19FCB0053B6C6 /* WMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMain.swift; sourceTree = "<group>"; };
+		1E2CC0C022B1A1180053B6C6 /* WWind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWind.swift; sourceTree = "<group>"; };
+		1E2CC0C422B1A5FC0053B6C6 /* WWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWeather.swift; sourceTree = "<group>"; };
 		374D72811783F77146E4975E /* Pods_DomainPlatform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DomainPlatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		597CF60B73DFE2E749722AF0 /* Pods_NetworkPlatform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkPlatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D135E93FA59E111F2536414 /* Pods-NetworkPlatform.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkPlatform.release.xcconfig"; path = "Target Support Files/Pods-NetworkPlatform/Pods-NetworkPlatform.release.xcconfig"; sourceTree = "<group>"; };
@@ -157,10 +171,41 @@
 		1E2CC0A822B198B00053B6C6 /* DomainPlatform */ = {
 			isa = PBXGroup;
 			children = (
+				1E2CC0B422B19C920053B6C6 /* UseCases */,
+				1E2CC0B322B19C860053B6C6 /* Entities */,
 				1E2CC0A922B198B00053B6C6 /* DomainPlatform.h */,
 				1E2CC0AA22B198B00053B6C6 /* Info.plist */,
 			);
 			path = DomainPlatform;
+			sourceTree = "<group>";
+		};
+		1E2CC0B322B19C860053B6C6 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				1E2CC0B722B19CCD0053B6C6 /* Encodabel */,
+				1E2CC0B822B19CDE0053B6C6 /* Weather.swift */,
+				1E2CC0BA22B19D2B0053B6C6 /* WCoord.swift */,
+				1E2CC0BC22B19E830053B6C6 /* WSys.swift */,
+				1E2CC0BE22B19FCB0053B6C6 /* WMain.swift */,
+				1E2CC0C022B1A1180053B6C6 /* WWind.swift */,
+				1E2CC0C422B1A5FC0053B6C6 /* WWeather.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		1E2CC0B422B19C920053B6C6 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		1E2CC0B722B19CCD0053B6C6 /* Encodabel */ = {
+			isa = PBXGroup;
+			children = (
+				1E2CC0B522B19CB30053B6C6 /* Encodable.swift */,
+			);
+			path = Encodabel;
 			sourceTree = "<group>";
 		};
 		30261F7862D2E2204111F92C /* Frameworks */ = {
@@ -183,7 +228,6 @@
 				7DCE927CEBD6A6B2C54E4B18 /* Pods-WeatherApp.debug.xcconfig */,
 				188E6E4CD9E66CD45E703788 /* Pods-WeatherApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -287,6 +331,7 @@
 					};
 					1E2CC0A622B198B00053B6C6 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -444,6 +489,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E2CC0BB22B19D2B0053B6C6 /* WCoord.swift in Sources */,
+				1E2CC0C122B1A1180053B6C6 /* WWind.swift in Sources */,
+				1E2CC0B922B19CDE0053B6C6 /* Weather.swift in Sources */,
+				1E2CC0B622B19CB30053B6C6 /* Encodable.swift in Sources */,
+				1E2CC0BF22B19FCB0053B6C6 /* WMain.swift in Sources */,
+				1E2CC0BD22B19E830053B6C6 /* WSys.swift in Sources */,
+				1E2CC0C522B1A5FC0053B6C6 /* WWeather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +654,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7DCE927CEBD6A6B2C54E4B18 /* Pods-WeatherApp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WeatherApp/Info.plist;
@@ -620,6 +673,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 188E6E4CD9E66CD45E703788 /* Pods-WeatherApp.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WeatherApp/Info.plist;
@@ -694,6 +748,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C757ABBD98509755DE8F23E4 /* Pods-DomainPlatform.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -711,6 +766,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobdev.DomainPlatform;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -722,6 +778,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A3DBC3D72F14F4D616977297 /* Pods-DomainPlatform.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
