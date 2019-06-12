@@ -25,6 +25,8 @@
 		1E2CC0BF22B19FCB0053B6C6 /* WMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2CC0BE22B19FCB0053B6C6 /* WMain.swift */; };
 		1E2CC0C122B1A1180053B6C6 /* WWind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2CC0C022B1A1180053B6C6 /* WWind.swift */; };
 		1E2CC0C522B1A5FC0053B6C6 /* WWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2CC0C422B1A5FC0053B6C6 /* WWeather.swift */; };
+		1E2CC0C722B1B48A0053B6C6 /* UseCaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2CC0C622B1B48A0053B6C6 /* UseCaseProvider.swift */; };
+		1E2CC0C922B1B4960053B6C6 /* WeatherUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2CC0C822B1B4960053B6C6 /* WeatherUseCase.swift */; };
 		2856426AC65B3B6CAA73787E /* Pods_NetworkPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597CF60B73DFE2E749722AF0 /* Pods_NetworkPlatform.framework */; };
 		B23E611C9502A52995FDDC56 /* Pods_WeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D241D9E2B0205C16D0D11D7D /* Pods_WeatherApp.framework */; };
 		D60CA8E9B6E3972064EE74CF /* Pods_DomainPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374D72811783F77146E4975E /* Pods_DomainPlatform.framework */; };
@@ -85,6 +87,8 @@
 		1E2CC0BE22B19FCB0053B6C6 /* WMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMain.swift; sourceTree = "<group>"; };
 		1E2CC0C022B1A1180053B6C6 /* WWind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWind.swift; sourceTree = "<group>"; };
 		1E2CC0C422B1A5FC0053B6C6 /* WWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWeather.swift; sourceTree = "<group>"; };
+		1E2CC0C622B1B48A0053B6C6 /* UseCaseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseProvider.swift; sourceTree = "<group>"; };
+		1E2CC0C822B1B4960053B6C6 /* WeatherUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherUseCase.swift; sourceTree = "<group>"; };
 		374D72811783F77146E4975E /* Pods_DomainPlatform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DomainPlatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		597CF60B73DFE2E749722AF0 /* Pods_NetworkPlatform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkPlatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D135E93FA59E111F2536414 /* Pods-NetworkPlatform.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkPlatform.release.xcconfig"; path = "Target Support Files/Pods-NetworkPlatform/Pods-NetworkPlatform.release.xcconfig"; sourceTree = "<group>"; };
@@ -196,6 +200,8 @@
 		1E2CC0B422B19C920053B6C6 /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
+				1E2CC0C622B1B48A0053B6C6 /* UseCaseProvider.swift */,
+				1E2CC0C822B1B4960053B6C6 /* WeatherUseCase.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -493,9 +499,11 @@
 				1E2CC0C122B1A1180053B6C6 /* WWind.swift in Sources */,
 				1E2CC0B922B19CDE0053B6C6 /* Weather.swift in Sources */,
 				1E2CC0B622B19CB30053B6C6 /* Encodable.swift in Sources */,
+				1E2CC0C722B1B48A0053B6C6 /* UseCaseProvider.swift in Sources */,
 				1E2CC0BF22B19FCB0053B6C6 /* WMain.swift in Sources */,
 				1E2CC0BD22B19E830053B6C6 /* WSys.swift in Sources */,
 				1E2CC0C522B1A5FC0053B6C6 /* WWeather.swift in Sources */,
+				1E2CC0C922B1B4960053B6C6 /* WeatherUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
