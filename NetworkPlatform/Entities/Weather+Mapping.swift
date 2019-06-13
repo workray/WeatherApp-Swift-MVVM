@@ -21,10 +21,8 @@ extension Weather: ImmutableMappable {
             weather: try map.value("weather"),
             main: try map.value("main"),
             wind: try map.value("wind"),
-            rain: try map.value("rain"),
             clouds: try map.value("clouds"),
-            dt: try map.value("dt"),
-            cod: try map.value("cod")
+            dt: try map.value("dt")
         )
     }
 }

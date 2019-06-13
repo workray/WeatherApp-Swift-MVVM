@@ -18,4 +18,8 @@ public final class WeatherNetwork {
     public func weather(place: String) -> Observable<Weather> {
         return network.getItem("data/2.5/weather?q=\(place)")
     }
+    
+    public func weathers(cities: [String]) -> Observable<[Weather]> {
+        return network.getItems("data/2.5/group?id=\(cities.joined(separator: ","))&units=metric", keyName: "list")
+    }
 }

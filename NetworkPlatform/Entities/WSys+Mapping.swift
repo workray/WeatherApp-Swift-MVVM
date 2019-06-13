@@ -15,6 +15,7 @@ extension WSys: ImmutableMappable {
     public init(map: Map) throws {
         self.init(
             country: try map.value("country"),
+            timezone: try map.value("timezone"),
             sunrise: try map.value("sunrise"),
             sunset: try map.value("sunset")
         )

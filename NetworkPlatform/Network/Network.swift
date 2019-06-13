@@ -16,27 +16,29 @@ import ObjectMapper
 final class Network {
     
     private let endPoint: String
+    private let apiKey: String
     private let scheduler: ConcurrentDispatchQueueScheduler
     
-    init(_ endPoint: String) {
+    init(_ endPoint: String, _ apiKey: String) {
         self.endPoint = endPoint
+        self.apiKey = apiKey
         self.scheduler = ConcurrentDispatchQueueScheduler(qos: DispatchQoS(qosClass: DispatchQoS.QoSClass.background, relativePriority: 1))
     }
     
     // MARK: Multiple Items
     func getItems<T: ImmutableMappable>(_ path: String, keyName: String? = nil) -> Observable<[T]> {
-        let absolutePath = "\(endPoint)/\(path)"
+        let absolutePath = "\(endPoint)/\(path)&appid=\(apiKey)"
         return requestItems(.get, path: absolutePath, parameters: nil, keyName: keyName)
     }
     
     func postItems<T: ImmutableMappable>(_ path: String, parameters: [String: Any], keyName: String? = nil) -> Observable<[T]> {
-        let absolutePath = "\(endPoint)/\(path)"
+        let absolutePath = "\(endPoint)/\(path)&appid=\(apiKey)"
         return requestItems(.post, path: absolutePath, parameters: parameters, keyName: keyName)
     }
     
     // MARK: Single Item
     func getItem<T: ImmutableMappable>(_ path: String, itemId: String? = nil, keyName: String? = nil) -> Observable<T> {
-        let absolutePath = "\(endPoint)/\(path)\(itemId == nil ? "" : "/\(itemId!)")"
+        let absolutePath = "\(endPoint)/\(path)\(itemId == nil ? "" : "/\(itemId!)")&appid=\(apiKey)"
         return request(.get, path: absolutePath, parameters: nil, keyName: keyName)
     }
     

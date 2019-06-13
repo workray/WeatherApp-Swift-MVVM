@@ -19,4 +19,8 @@ final class WeatherUseCase: DomainPlatform.WeatherUseCase {
     func weather(place: String) -> Observable<Weather> {
         return network.weather(place: place)
     }
+    
+    func weathers(cities: [String]) -> Observable<[Weather]> {
+        return network.weathers(cities: cities)
+    }
 }

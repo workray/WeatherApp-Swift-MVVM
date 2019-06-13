@@ -11,8 +11,9 @@ import DomainPlatform
 final class NetworkProvider {
     private let network: Network
     public init() {
-        let apiEndpoint = "https://www.hellomeemo.com"
-        network = Network(apiEndpoint)
+        let apiEndpoint = "https://api.openweathermap.org"
+        let apiKey = "bae7b2425b91a9fb15c8a28b147b34ce"
+        network = Network(apiEndpoint, apiKey)
     }
     
     public func makeCheckUserNetwork() -> WeatherNetwork {

@@ -10,4 +10,5 @@ import RxSwift
 
 public protocol WeatherUseCase {
     func weather(place: String) -> Observable<Weather>
+    func weathers(cities: [String]) -> Observable<[Weather]>
 }
