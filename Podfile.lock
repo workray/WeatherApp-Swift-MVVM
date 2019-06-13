@@ -1,10 +1,15 @@
 PODS:
-  - Alamofire (5.0.0-beta.6)
-  - AlamofireObjectMapper (6.0.0):
-    - Alamofire (~> 5.0.0-beta.2)
+  - Alamofire (4.8.2)
+  - AlamofireObjectMapper (5.2.0):
+    - Alamofire (~> 4.7)
     - ObjectMapper (~> 3.4)
   - Differentiator (4.0.1)
   - ObjectMapper (3.5.0)
+  - RxAlamofire (5.0.0):
+    - RxAlamofire/Core (= 5.0.0)
+  - RxAlamofire/Core (5.0.0):
+    - Alamofire (~> 4.8)
+    - RxSwift (~> 5.0)
   - RxCocoa (5.0.0):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
@@ -21,6 +26,7 @@ DEPENDENCIES:
   - Alamofire
   - AlamofireObjectMapper
   - ObjectMapper
+  - RxAlamofire
   - RxCocoa
   - RxDataSources
   - RxSwift
@@ -32,6 +38,7 @@ SPEC REPOS:
     - AlamofireObjectMapper
     - Differentiator
     - ObjectMapper
+    - RxAlamofire
     - RxCocoa
     - RxDataSources
     - RxRelay
@@ -39,16 +46,17 @@ SPEC REPOS:
     - SwiftyJSON
 
 SPEC CHECKSUMS:
-  Alamofire: cd08a4402bd12cacd0c66f23fb12fec8d6b965e4
-  AlamofireObjectMapper: 8cf0e01a1b36b485877033f8f6aa733977488da3
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireObjectMapper: 92b6ce2423a9d159e686f6a1d514a009bf903ddc
   Differentiator: 886080237d9f87f322641dedbc5be257061b0602
   ObjectMapper: 078b564ed25c6578b62588e306bf1da3924636d4
+  RxAlamofire: e7875a012aff55345672d0f70a2a9cd6aeb0f211
   RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
   RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
   RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
   RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: a2003612184b0be6d524fa4ac1e448715cce6e76
+PODFILE CHECKSUM: 4b8911fbd028eb8c9f17da83a00b75d31b6203a1
 
 COCOAPODS: 1.7.1

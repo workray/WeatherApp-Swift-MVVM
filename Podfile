@@ -24,8 +24,9 @@ target 'NetworkPlatform' do
 
   # Pods for NetworkPlatform
   rx_swift
+  rx_cocoa
   pod 'Alamofire'
-#  pod 'RxAlamofire'
+  pod 'RxAlamofire'
   pod 'ObjectMapper'
   pod 'AlamofireObjectMapper'
   pod 'SwiftyJSON'
